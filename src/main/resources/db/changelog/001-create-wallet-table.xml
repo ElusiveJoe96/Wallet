@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeSet id="1" author="you">
+    <createTable tableName="wallet">
+        <column name="id" type="UUID">
+            <constraints primaryKey="true" nullable="false"/>
+        </column>
+        <column name="balance" type="INT"/>
+    </createTable>
+</changeSet>
